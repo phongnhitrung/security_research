@@ -23,3 +23,20 @@ The code for the HTML form is shown below.
 <input type="submit" value="Submit"/>
 </form>
 ```
+
+*_HERE:_*
+- The above form accepts the email address, and password then submits them to a PHP file named index.php.
+- It has an option of storing the login session in a cookie. We have deduced this from the remember_me checkbox. It uses the post method to submit data. This means the values are not displayed in the URL.
+
+Let’s suppose the statement at the backend for checking user ID is as follows
+
+```
+SELECT * FROM users WHERE email = $_POST['email'] AND password = md5($_POST['password']);
+```
+
+*_HERE:_*
+- The above statement uses the values of the $_POST[] array directly without sanitizing them.
+- The password is encrypted using MD5 algorithm.
+
+We will illustrate SQL injection attack using sqlfiddle. Open the URL http://sqlfiddle.com/ in your web browser. You will get the following window.
+
