@@ -1,6 +1,7 @@
 TOP NETWORK MONITORING SOLUTIONS
 ---
-# 1. Solarwinds Network Performance Monitor
+# Commercial Solution 
+## 1. Solarwinds Network Performance Monitor
 The software is sold by separate modules based on what you use. SolarWinds Network Performance Monitor Price starts from $1,995 and is a one-time license including 1st-year maintenance.
 
 Solarwinds NPM has an Extensive Feature list that make it One of the Best Choices for Network Monitoring, including:
@@ -24,7 +25,7 @@ More Information and Official Website: http://www.solarwinds.com/network-perform
 
 Download Link: http://www.solarwinds.com/network-performance-monitor/registration
 
-# 2. PRTG Network Monitor from Paessler
+## 2. PRTG Network Monitor from Paessler
 PRTG Network Monitor software is commonly known for its advanced infrastructure management capabilities. 
 All devices, systems, traffic, and applications in your network can be easily displayed in a hierarchical view that summarizes performance and alerts. 
 PRTG monitors IT infrastructure using technology such as SNMP, WMI, SSH, Flows/Packet Sniffing, HTTP requests, REST APIs, Pings, SQL and a lot more.
@@ -43,7 +44,7 @@ Download Link:
 
 https://www.paessler.com/download/prtg-download 
 
-# 3. ManageEngine OpManager
+## 3. ManageEngine OpManager
 At its core, ManageEngine OpManager is an infrastructure management, network monitoring and Application Performance Management “APM” (with APM plug-in) software.
 The product is well balanced when it comes to monitoring and analysis features.
 
@@ -58,7 +59,7 @@ More Information and Official Website: https://www.manageengine.com
 
 Download Link: https://www.manageengine.com/network-monitoring/
 
-# 4. WhatsUp Gold 2017
+## 4. WhatsUp Gold 2017
 WhatsUp Gold (WUG) is a network monitoring software from Ipswitch. It is one of the easiest to use and highly configurable tools in the market. The dashboards are user-friendly and visually attractive.
 
 For daily IT management, WhatsUp Gold is a price/feature balanced network monitoring tool. It is also completely customizable. Dashboards can be customized to display your IT infrastructure and alerts to fit your requirements.
@@ -74,7 +75,7 @@ Download Link:
 
 https://www.ipswitch.com/forms/free-trials/whatsup-gold
 
-# 5. Nagios XI
+## 5. Nagios XI
 Nagios XI is aimed at a wide audience, from freelancers, SMBs (Small-to-Medium-Business), to large corporations. This makes Nagios’s XI pricing model one of the most flexible. They have a free version, open-source, one-time license and subscription. It is one of the few tools that allows an extreme flexibility (because of its adaptability to plug-ins) on what’s being monitored and alerted for a low cost.
 
 Nagios XI focuses on monitoring. The key IT components that Nagios XI monitors are Network, Infrastructure, and Database. Although the software is easy to install, it will initially take some time to adjust to your requirements. This is because Nagios XI does not auto-discover devices. You have to configure each device that needs to be monitored with a configuration file.
@@ -85,7 +86,7 @@ More Information and Official Website: https://www.nagios.com
 
 Download Link: https://www.nagios.com/products/nagios-xi/
 
-# 6. Zabbix
+## 6. Zabbix
 Zabbix is an open source monitoring tool. It is popular for its easy-to-use and pleasing Web GUI that is fully configurable. Zabbix focuses on monitoring and trending functionality. This software is frequently used for monitoring servers and network hardware. One of the highlights of Zabbix is that it can predict trends in your traffic. Zabbix can forecast future behavior based on historical data.
 
 Since it is open source, it has an active user community spread around the world and good documentation. Zabbix gives the freedom to use the open-source solution without vendor lock-ins (including all components).
@@ -96,23 +97,8 @@ More Information and Official Website: https://www.zabbix.com/
 
 Download Link: https://www.zabbix.com/download
 
-# 7. Incinga
-It is another open source infrastructure and service monitoring tool. Icinga was developed in 2009 by the same team of developers that brought you Nagios.
-It is a very easy to use and flexible tool for SMB and enterprise networks. The software focuses strongly on monitoring infrastructure and services. The tool also includes great threshold analysis and report/alert functionalities.
 
-Icinga is popular at providing superior alters and reports of the general health of your IT infrastructure. All alert dependencies can be displayed in the dashboard and sent via email, SMS or mobile message applications.
-
-Since Icinga is open source it is completely free. With its strong community forum, you can get all support you need.
-
-More Information and Official Website:
-
-https://www.icinga.com/
-
-Download Link:
-
-https://www.icinga.com/products/demo/
-
-# 8. Datadog
+## 7. Datadog
 It is a monitoring service specially designed for hybrid cloud environments. Datadog can also monitor the performance of network, apps, tools, and services.
 
 One of the highlights of Datadog is that it can provide extensibility though many APIs (Application Programming Interfaces) with very good documentation.
@@ -129,7 +115,7 @@ Download Link:
 
 https://www.datadoghq.com
 
-# 9. ConnectWise Automate
+## 8. ConnectWise Automate
 Formerly known as Labtech, ConnectWise Automate is a new cloud-based manager and monitoring solution that can keep track of your IT infrastructure devices from a single location.
 ConnectWise Automate discovers all devices in your network so they can be monitored proactively. The network visibility is improved because the tool interprets problems and initiates an automatic pre-defined action to mitigate the issue.
 
@@ -146,7 +132,7 @@ Download Link:
 
 https://www.connectwise.com/resources/trial/connectwise-automate-trial
 
-#10. Logic Monitor
+## 9. Logic Monitor
 LogicMonitor is an automated SaaS (Software-as-a-Service) IT performance monitoring tool. With LogicMonitor you can get full visibility of the performance and health of your network.
 This software will automatically discover IT infrastructure devices and monitor them proactively. Besides from extraordinary monitoring capabilites, the software also improves the performance and health of your network. LogicMonitor can help identify incoming issues by providing predictive alters and trend analysis.
 
@@ -161,3 +147,21 @@ https://www.logicmonitor.com
 Download Link:
 
 https://www.logicmonitor.com/signup/
+
+# Opensource Solutions 
+## 1. Incinga
+It is another open source infrastructure and service monitoring tool. Icinga was developed in 2009 by the same team of developers that brought you Nagios.
+It is a very easy to use and flexible tool for SMB and enterprise networks. The software focuses strongly on monitoring infrastructure and services. The tool also includes great threshold analysis and report/alert functionalities.
+
+Icinga is popular at providing superior alters and reports of the general health of your IT infrastructure. All alert dependencies can be displayed in the dashboard and sent via email, SMS or mobile message applications.
+
+Since Icinga is open source it is completely free. With its strong community forum, you can get all support you need.
+
+More Information and Official Website:
+
+https://www.icinga.com/
+
+Download Link:
+
+https://www.icinga.com/products/demo/
+
