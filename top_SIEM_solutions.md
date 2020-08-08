@@ -62,4 +62,43 @@ This change has been relatively recent because of the substantial costs of SIEM 
  Popular SIEM tool that runs through your Active Directory records to confirm system security. Runs on Mac OS as well as Windows.
  
  # OpenSource Solutions
+ ## 1. Apache Metron
+One of the newest open source SIEM tools, Apache Metron evolved from Cisco’s Open SOC platform. Much like SIEMonster, it also ties multiple open source solutions together in one centralized platform. Apache Metron can parse and normalize security events into standard JSON language for easy analysis. Additionally, it can provide security alerts, data enrichment, and labeling.
+
+Furthermore, Apache Metron can index and store security events, a major boon to enterprises of all sizes.
+
+## 2. AlienVault OSSIM
+AT&T Cybersecurity offers AlienVault OSSIM, an open source SIEM tool based on their AlienVault USM solution. Similarly to the above entries, AlienVault OSSIM combines multiple open source projects into one package. In addition, AlienVault OSSIM allows for device monitoring and log collection.
+
+It also provides for normalization and event correlation. 
+
+## 3. MozDef
+
+Created by Mozilla to automate security incident processing, MozDef offers scalability and resilience; the former quality especially appeals to SMBs. This open source SIEM solution uses a microservice-based architecture; MozDef can provide event correlation and security alerts.
+
+Moreover, it can integrate with multiple third-parties. 
+
+## 4. OSSEC
+Technically, OSSEC is an open-source intrusion detection system rather than a SIEM solution. However, it still offers a host agent for log collection and a central application for processing those logs. Overall, this tool monitors log files and file integrity for potential cyber attacks. It can perform log analysis from multiple networks services and provide your IT team with numerous alerting options. 
+
+## 5. Wazuh
+Wazuh actually evolved from a different open source SIEM solution; namely, OSSEC. Yet Wazuh now stands as its own unique solution. Indeed, it supports agent-based data collection as well as syslog aggregation. Therefore, Wazuh can easily monitor on-premises devices. It has a distinct web UI and comprehensive rulesets for easy IT admin management.
+
+## 6. Prelude OSS
+Prelude OSS offers an open source version of the Prelude SIEM solution. This supports a wide range of log formats and can integrate with other security tools. It also offers event data normalization into a standard language which can help support other cybersecurity tools and solutions. Prelude OSS also benefits from continuous development so it stays up to date with the latest threat intelligence.  
+
+## 7. Snort
+Another open source intrusion detection system, Snort works to provide log analysis; it also performs real-time analysis on network traffic to suss out potential dangers. Snort can also display real-time traffic or dump streams of packets to a log file. Moreover, it can use output plugins to determine how and where it stores data in your network.  
+
+## 8. Sagan
+As a platform, Sagan works almost exclusively with fellow open source SIEM tool Snort; Sagan compliments and supports Snort’s rules. Sagan is designed to be lightweight and can write to Snort Databases. For those interested in working with Snort, this may serve as another essential tool.  
+
+## 9. ELK Stack
+This solution also goes by ELK or Elastic Stack. The ELK Stack solution also consists of multiple free SIEM products. For example, using embedded Logstash components, ELK can aggregate logs from nearly any data sources. In addition, it can correlate that log data via a wide array of plugins, although it requires manual security rules. ELK Stack can also visualize the data with another component.
+
+## 10. SIEMonster
+SIEMonster straddles the line between free SIEM and a paid solution, as it offers both. As with many of the listed solutions, SIEMonster offers a platform combining multiple open source tools As a result, it does offer a centralized interface for controlling these tools, data visualization, and threat intelligence. 
+
+ # refs
+ 1. https://www.comparitech.com/net-admin/siem-tools/
  
