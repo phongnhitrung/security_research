@@ -165,3 +165,5 @@ Download Link:
 
 https://www.icinga.com/products/demo/
 
+## 2. Cacti
+Cacti is an open-source, web-based network monitoring and graphing tool designed as a front-end application for the open-source, industry-standard data logging tool RRDtool. Cacti allows a user to poll services at predetermined intervals and graph the resulting data.
