@@ -30,4 +30,6 @@ Log file collection and analysis tools that can be adapted to work with NetFlow.
 Telegraf, Influxdb, Chronograf, and Kapacitor are network data collection and analysis tools that can use sFlow and SNMP.
 
 # Opensource Solutions
-1. 
+1. https://github.com/robcowart/elastiflow
+2. https://github.com/VerizonDigital/vflow
+3. https://github.com/nfstream/nfstream
