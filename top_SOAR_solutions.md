@@ -1,6 +1,11 @@
 TOP SOAR SOLUTIONS
 ---
 
+# SOAR capabilities include:
+    - Orchestration: The ability to connect to and integrate various tools.
+    - Automation: The ability to collect data automatically and enrich events.
+    - Response: The ability to allow analysts to manage, collaborate, and share data regarding incidents for better outcomes.
+
 # Commercial Solutions
 ## 1. Cyberbit
 Cyberbit offers a SOAR product called SOC 3D. 
