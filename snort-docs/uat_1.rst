@@ -1,46 +1,38 @@
 UAT 1: 
 ================================
 
-This article will show how to connect to the Sguil server to view security alerts in real-time.
+UAT này hướng dẫn sử dụng PSNNIDS để phát hiện việc dò quét website và các IP dò quét website.
 
 Mô hình kiểm tra
 --------------------------------------------
 
-To directly .
+- Lưu lượng thực tế
 
-Bước 1: 
+- Mô phỏng giả lập
+
+Bước 1: PHÁT HIỆN
 -------------------------------------------
 
-- Double-click the Sguil icon on the desktop of your Security Onion server.
+- Theo dõi đồ thị cảnh báo NIDS thấy số lượng cảnh báo tăng bất thường.
 
-- Set the Sguil Host to localhost, enter your credentials, and then click OK.
+  .. image:: images/detect_scan_website.png
 
-- After, choose which sensors you would like to monitor for this sguil session and then click Start Sguil.
-
-Bước 2: 
+Bước 2: TRUY VẾT
 ------------------------------------------
 
-This method requires SSH and an X11 server installed on the machine from which you will be connecting from.
+- Kiểm tra chi tiết các các cảnh báo trong bảng “NIDS - Aler Summary”
 
-If you're using OSX install the XQuartz package, Windows try ciXwin, Linux and BSD family use Xorg.
+  .. image:: images/check_black_ip.png
 
-Connect to the Security Onion server via SSH while passing the X11 forwarding option ( ``-X`` ).
+  => Phát hiện các IP nằm trong danh sách đen bị báo cáo bởi nhiều nguồn tham chiếu trên thế giới   (https://www.dshield.org/block.txt)
 
-::
-
-    ssh -X user@nsm
-
-Once logged in as the normal user open the sguil client application. The display will be sent to your machine using the X11 protocol over SSH.
-
-::
-
-    sguil.tk
-
-Since we're only forwarding the application window, we're connected locally i.e. as if we were sitting at the server's console. Because of this we can use ``localhost`` as the Sguild Host.
-
-Once logged in we will be able to select which sensors we would like to monitor.
-
-Finally, select Start Sguil. Now you can view the alerts in real-time, perform advanced SQL queries, and pivot into a number of applications like Wireshark, Kibana, and NetworkMiner.
-
-Bước 3: 
+Bước 3: ĐÁNH GIÁ ẢNH HƯỞNG
 ------------------------------------------
+
+- Kiểm tra đồ thị flow (connections), lọc tất cả các flow liên quan đến các black IP để xác định phạm vi ảnh hưởng
+
+  .. image:: images/scan_web_affect.png
+
+  => Tất cả các black IP đều chưa thiết lập được kết nối hoàn chỉnh (ESTABLISHED) đến hệ thống
+
+  => Các black IP chỉ mới scan port ứng dụng của hệ thống, cần tiếp tục giám sát vì việc dò quét là bước đầu tiên cho các cuộc tấn công quy mô
